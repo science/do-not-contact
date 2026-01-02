@@ -1,0 +1,33 @@
+# Do Not Contact - Configuration
+# Copy this file to config.yml and fill in your details
+
+# Your identity for opt-out requests
+identity:
+  full_name: "Your Full Name"
+  email: "your.email@example.com"
+  phone: "+1-555-555-5555"
+  address:
+    street: "123 Main Street"
+    city: "Your City"
+    state: "CA"
+    zip: "12345"
+
+# SMTP settings for sending emails
+# Example for common providers:
+#
+# Gmail (requires app password):
+#   host: smtp.gmail.com
+#   port: 587
+#   secure: false
+#
+# Outlook/Hotmail:
+#   host: smtp-mail.outlook.com
+#   port: 587
+#   secure: false
+#
+smtp:
+  host: "smtp.example.com"
+  port: 587
+  secure: false  # true for port 465, false for port 587
+  user: "your.email@example.com"
+  password: "your-smtp-password-or-app-password"

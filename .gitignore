@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+dist/
+
+# Environment and secrets
+.env
+*.env
+brave-api-key.txt
+
+# Personal configuration (contains email/address/SMTP password)
+config.yml
+
+# Personal data
+donations-opt-out-list.txt
+data/
+logs/
+screenshots/
+downloads/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Editor swap files
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db

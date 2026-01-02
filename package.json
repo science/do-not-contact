@@ -1,0 +1,32 @@
+{
+  "name": "do-not-contact",
+  "version": "0.1.0",
+  "description": "Automate opt-out requests to nonprofit organizations",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "search": "tsx src/index.ts search",
+    "batch": "tsx src/index.ts batch",
+    "interactive": "tsx src/index.ts interactive",
+    "status": "tsx src/index.ts status"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "@browserbasehq/stagehand": "^1.13.0",
+    "better-sqlite3": "^11.7.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.5.0",
+    "nodemailer": "^6.10.0",
+    "playwright": "^1.50.0",
+    "yaml": "^2.8.2",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.15.3",
+    "@types/nodemailer": "^6.4.17",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  }
+}
